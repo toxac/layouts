@@ -1,15 +1,18 @@
-$primary: #007bff;
+$primary: #bd6818;
 $secondary: #00ee22;
 $tertiary: #d0a5b2;
 $success: #c2f3f1;
 $danger: #4b4bdb;
 $warning: #333;
 $info: #555;
-$light: #fef;
+$light: rgb(255, 255, 255);
 $dark: #011;
 
 $enable-gradients: true;
 $enable-shadows: true;
 
-@import "bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900");
+
+$font-family-base: "Montserrat";
 
