@@ -7,5 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "toxac",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toxac/layouts.git"
+  },
+  "keywords": [
+    "layout"
+  ],
+  "bugs": {
+    "url": "https://github.com/toxac/layouts/issues"
+  },
+  "homepage": "https://github.com/toxac/layouts#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
 }
